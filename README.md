@@ -1,5 +1,6 @@
 This repository contains the code used for the publication of Tsiros et al. (2025) entitled " Optimizing Nanoparticle-Mediated Drug Delivery: Insights from Compartmental Modeling via the CompSafeNano Cloud Platform".
-The "Nanoparticle_delivery_application_publication.R" contains the code used for generating the results presented in the publication.
+
+* The "Nanoparticle_delivery_application_publication.R" contains the code used for generating the results presented in the publication.
 
 * File "model_fitting.R" can be used to fit the model to new data. Specifically, based on the examples.csv file, the user is requested to provide NP concentration-time
 profiles for the NP under study for the corresponding model compartments, i.e., the administration site, cell vicinity, cell interior, off-target sites and excreta.
