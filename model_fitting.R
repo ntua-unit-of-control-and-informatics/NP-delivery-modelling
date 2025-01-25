@@ -239,7 +239,7 @@ optimization<- nloptr::nloptr(x0 = x0,
 parameters[parameters_to_estimate] <- optimization$solution
 parms<- exp(unlist(parameters))
 
-write.csv(data.frame(unlist(parameters)), "parameters.csv")
+write.csv(data.frame("parameters" = unlist(parms)), "parameters.csv")
 
 sol_times <- seq(0,28*24, 1 )
 inits <- create.inits(unname(dose))
